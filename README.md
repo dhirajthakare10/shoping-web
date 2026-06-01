@@ -1,4 +1,4 @@
-# Antigravity Premium Full-Stack eCommerce Web Application
+#  Full-Stack eCommerce Web Application
 
 A premium, state-of-the-art, highly responsive full-stack eCommerce shopping platform featuring separate **User** and **Admin** panels. Styled with sleek glassmorphism, Harmoneous HSL gradients, Outfit/Inter typography, responsive custom layouts, and interactive loading/toast notifications.
 
