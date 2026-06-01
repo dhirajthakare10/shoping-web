@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Shop the finest selection of premium electronics, vintage fashion, athletic sneakers, designer watches, and luxury accessories at Crazy Deal Store. Experience next-generation glassmorphic eCommerce design.">
+  <title>Crazy Deal Store | Premium Full-Stack eCommerce Experience</title>
+  <!-- Google Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;850&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Razorpay Payment Gateway Script -->
+  <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+  <!-- Styling Sheet -->
+  <link rel="stylesheet" href="/styles/index.css">
+</head>
+<body class="transition-colors duration-300 antialiased overflow-x-hidden">
+  
+  <!-- Root SPA Mounting Container -->
+  <div id="app" class="min-h-screen flex flex-col relative"></div>
+
+  <!-- Toast Notification Stack Mounting Node -->
+  <div id="toast-root" class="fixed top-5 right-5 z-[9999] flex flex-col gap-3 max-w-sm w-full pointer-events-none"></div>
+
+  <!-- Application Initializer Entry Point -->
+  <script type="module" src="/app.js"></script>
+</body>
+</html>

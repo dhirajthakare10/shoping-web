@@ -1,0 +1,23 @@
+{
+  "name": "antigravity-premium-ecommerce",
+  "version": "1.0.0",
+  "description": "Premium Full-Stack eCommerce Web Application with Vite & Node MVC",
+  "scripts": {
+    "setup": "npm run install-backend && npm run install-frontend",
+    "install-backend": "cd server && npm install",
+    "install-frontend": "cd client && npm install",
+    "seed": "cd server && npm run seed",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "dev": "npm run server"
+  },
+  "keywords": [
+    "ecommerce",
+    "fullstack",
+    "express",
+    "vite",
+    "tailwind",
+    "mongoose"
+  ],
+  "author": "Antigravity UI Team"
+}
